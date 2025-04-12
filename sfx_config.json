@@ -1,0 +1,336 @@
+﻿{
+    "settle_card_new_bad": [
+        2000168, // 谗言
+        2000083, // 妻子的不满
+        2000698, // 娜依拉的不满
+        2000558, // 罪证
+        2000326, // 疯狂
+        2000672, // 苏丹的猜疑
+        2000680 // 苏丹的猜忌
+    ],
+    "player_card_ids": [
+        2000001,
+        2000002,
+        2000003,
+        2000861
+    ],
+    "fade_in_transition_time": {
+        "Default": 1.5,
+        "MakerTeam": 0.5,
+        "StartGame": 1.5,
+        "MainGame": 1.5,
+        "Settlement": 4,
+        "DestroySudanCard": 3,
+        "DrawSudanCard": 1.5,
+        "OverGame": 2.5,
+        "Tutorial_MainGame": 1.5,
+        "Tutorial_Settlement": 1.5,
+        "Tutorial_DrawSudanCard": 1.5,
+        "Armageddon":2.5
+    },
+    "fade_out_transition_time": {
+        "Default": 1.5,
+        "MakerTeam": 0.5,
+        "StartGame": 1.5,
+        "MainGame": 1,
+        "Settlement": 4,
+        "DestroySudanCard": 3,
+        "DrawSudanCard": 1.5,
+        "OverGame": 1.5,
+        "Tutorial_MainGame": 1.5,
+        "Tutorial_Settlement": 1.5,
+        "Tutorial_DrawSudanCard": 1.5,
+        "Armageddon":4
+    },
+    "main_game_loop": {
+        "7":{
+            "clip": "main_game_level1",
+            "start": 0,
+            "loop_start": 28.165,
+            "loop_end": 156.164
+        },
+        "6":{
+            "clip": "main_game_level1",
+            "start": 28.165,
+            "loop_start": 28.165,
+            "loop_end": 156.164
+        },
+        "5":{
+            "clip": "main_game_level2",
+            "start": 0,
+            "loop_start": 78.097,
+            "loop_end": 161.828
+        },
+        "4":{
+            "clip": "main_game_level2",
+            "start": 78.097,
+            "loop_start": 78.097,
+            "loop_end": 161.828
+        },
+        "3":{
+            "clip": "main_game_level2",
+            "start": 78.097,
+            "loop_start": 78.097,
+            "loop_end": 161.828
+        },
+        "2":{
+            "clip": "main_game_level3",
+            "start": 0,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        },
+        "1":{
+            "clip": "main_game_level3",
+            "start": 40.008,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        },
+        "0":{
+            "clip": "main_game_level3",
+            "start": 40.008,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        },
+        "-1":{
+            "clip": "main_game_level3",
+            "start": 40.008,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        }
+    },
+    "main_game_loop_difficulty": {
+        "5":{
+           "clip": "main_game_level1",
+            "start": 0,
+            "loop_start": 28.165,
+            "loop_end": 156.164
+        },
+        "4":{
+            "clip": "main_game_level1",
+            "start": 28.165,
+            "loop_start": 28.165,
+            "loop_end": 156.164
+        },
+        "3":{
+            "clip": "main_game_level2",
+            "start": 0,
+            "loop_start": 78.097,
+            "loop_end": 161.828
+        },
+        "2":{
+            "clip": "main_game_level2",
+            "start": 78.097,
+            "loop_start": 78.097,
+            "loop_end": 161.828
+        },
+        "1":{
+            "clip": "main_game_level3",
+            "start": 0,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        },
+        "0":{
+            "clip": "main_game_level3",
+            "start": 40.008,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        },
+        "-1":{
+            "clip": "main_game_level3",
+            "start": 40.008,
+            "loop_start": 40.008,
+            "loop_end": 216.008
+        }
+    },
+    "settle_loop": {
+        "7":{
+            "clip": "settlement_level1",
+            "start": 0,
+            "loop_start": 4.452,
+            "loop_end": 39.334
+        },
+        "6":{
+            "clip": "settlement_level1",
+            "start": 0,
+            "loop_start": 4.452,
+            "loop_end": 39.334
+        },
+        "5":{
+            "clip": "settlement_level2",
+            "start": 0,
+            "loop_start": 15.004,
+            "loop_end": 32.015
+        },
+        "4":{
+            "clip": "settlement_level2",
+            "start": 0,
+            "loop_start": 15.004,
+            "loop_end": 32.015
+        },
+        "3":{
+            "clip": "settlement_level2",
+            "start": 0,
+            "loop_start": 15.004,
+            "loop_end": 32.015
+        },
+        "2":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        },
+        "1":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        },
+        "0":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        },
+        "-1":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        }
+    },
+    "settle_loop_difficulty": {
+        "5":{
+            "clip": "settlement_level1",
+            "start": 0,
+            "loop_start": 4.452,
+            "loop_end": 39.334
+        },
+        "4":{
+            "clip": "settlement_level1",
+            "start": 0,
+            "loop_start": 4.452,
+            "loop_end": 39.334
+        },
+        "3":{
+            "clip": "settlement_level2",
+            "start": 0,
+            "loop_start": 15.004,
+            "loop_end": 32.015
+        },
+        "2":{
+            "clip": "settlement_level2",
+            "start": 0,
+            "loop_start": 15.004,
+            "loop_end": 32.015
+        },
+        "1":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        },
+        "0":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        },
+        "-1":{
+            "clip": "settlement_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": 43.633
+        }
+    },
+    "armageddon_music_loop": {
+        // ——————————————————————————————————邪神线
+        "5010050":{ // 恶之华
+            "clip": "battle_1",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010060":{ // 暗影渐起
+            "clip": "battle_2",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010061":{ // 末日风暴
+            "clip": "battle_3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010062":{ // 迷梦之刃
+            "clip": "battle_4",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        // "5010063":{ // 造化歧路
+        //     "clip": "ArmageddonStop",
+        //     "start": 0,
+        //     "loop_start": 0,
+        //     "loop_end": -1
+        // },
+        // ——————————————————————————————————神临之塔线
+        "5010034":{ // 神圣烙印
+            "clip": "battle_1",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010045":{ // 世界之眼
+            "clip": "battle_2",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010046":{ // 大猎捕
+            "clip": "battle_3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010047":{ // 匕首之路
+            "clip": "battle_4",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        // "5010048":{ // 天空之火
+        //     "clip": "ArmageddonStop",
+        //     "start": 0,
+        //     "loop_start": 0,
+        //     "loop_end": -1
+        // },
+        // ——————————————————————————————————逃跑
+        "5010001":{ // 出发！
+            "clip": "over_game_trapped_beast",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        // ——————————————————————————————————造反
+        "5010025":{ // 集结部队
+            "clip": "main_game_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        "5010022":{ // 女术士
+            "clip": "tutorial_settlement",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        },
+        // ——————————————————————————————————屠龙
+        "5006079":{ // 龙头的归属
+            "clip": "main_game_level3",
+            "start": 0,
+            "loop_start": 0,
+            "loop_end": -1
+        }
+    }
+}
